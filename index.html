@@ -40,7 +40,7 @@
 
 <section class="doc" id="privacy">
 <h1>Play Dominoes — Privacy Policy</h1>
-<p class="updated">Effective date: November 23, 2026</p>
+<p class="updated">Effective date: November 24, 2026</p>
 
 <p>Play Dominoes ("the app," "we," "us"), formerly named Dominoes Arena, is a competitive multiplayer dominoes game for Android.
 This policy explains what information we collect, why, and how you can control or delete it.
@@ -108,6 +108,21 @@ can always reach us at <a href="mailto:gblancocpa@gmail.com">gblancocpa@gmail.co
   <td>Aggregate, non-identifying app usage events (e.g. which screens/features are used),
       handled by Firebase Analytics.</td>
   <td>To understand which parts of the app are working and which need improvement.</td>
+</tr>
+<tr>
+  <td>Session recordings and heatmaps</td>
+  <td>On Android 10 and newer, a recording of how you move through the app's screens outside a match: which screens you open
+      (by screen type, never a match or player id), your taps and scrolls, and a reconstruction of how each screen
+      looked. Everything on screen is masked by default, so text and pictures are recorded as blank blocks; only a few
+      controls and catalogue items that show nothing about anyone (the game-mode cards, the menu icons, the rules,
+      the notification switches, and the store's products, pictures and prices) are left visible. Names, profile photos, chat and direct messages, email addresses and coin balances
+      are always masked. Nothing is recorded during a match. Also general device information (such as device model,
+      operating system and screen size) and your approximate location (country) from your network address. Handled by
+      Microsoft Clarity, which uses its own random identifier; we never give it your name, email or account id.</td>
+  <td>To find screens that confuse players, buttons that look tappable but do nothing, and places where people tap
+      repeatedly because something did not respond, so we can fix them. In the EU and UK this starts only after you
+      agree in the consent form. Anywhere, you can turn it off on your device under Account &rarr; Session
+      recordings.</td>
 </tr>
 <tr>
   <td>Support reports</td>
@@ -257,7 +272,7 @@ between hands. It is never open while a hand is being played.</p>
 <h2>3. Who we share data with</h2>
 <p>We use the following service providers to run the app. Each only receives the data needed to
 do its job. Apart from the advertising partners listed below, none of them may use your data for
-their own advertising:</p>
+their own advertising (Microsoft Clarity, also listed below, is the one other exception: it acts as an independent controller):</p>
 <ul>
   <li><strong>Supabase</strong> — hosts our database, authentication, and your uploaded profile
       photo.</li>
@@ -289,6 +304,11 @@ their own advertising:</p>
       your device's advertising ID, to measure and improve our ad campaigns. Their use of data is governed by their
       own privacy policies: <a href="https://policies.google.com/technologies/ads">how Google uses data in
       advertising</a> and <a href="https://www.facebook.com/privacy/policy/">Meta's privacy policy</a>.</li>
+  <li><strong>Microsoft Clarity</strong> (Microsoft Corporation) &mdash; records the masked session recordings and
+      heatmaps described above. Microsoft is an independent controller of this data, not a service provider working
+      only for us: it may also use it for its own purposes as described in the
+      <a href="https://privacy.microsoft.com/privacystatement">Microsoft Privacy Statement</a> and the
+      <a href="https://clarity.microsoft.com/terms">Clarity Terms of Use</a>.</li>
 </ul>
 <p>We may also disclose information if required by law, or to protect the rights, safety, or
 property of our players or the app.</p>
@@ -322,6 +342,10 @@ name and expires on Firebase's own retention schedule. Agora's technical logs of
 Tenjin's record of the install itself (Tenjin's install identifier, the ad network, campaign and creative it
 attributed the install to, whether it came from an ad, and an ad click ID if there was one) stays in our
 attribution records for overall advertising reports, no longer linked to your account.</p>
+<p>Microsoft Clarity keeps session recordings for 30 days, except that recordings we save to look at later, and a
+random sample of recordings Microsoft keeps, are kept for up to 9 months. Heatmap (aggregated tap) data is kept for up
+to 9 months. Clarity data is not linked to your name, email or
+account, so deleting your account does not delete it; it expires on this schedule.</p>
 
 <h2>5. Children's privacy</h2>
 <p>Play Dominoes is intended for adults aged 18 and over. It is not directed at children, and we
@@ -346,6 +370,13 @@ extension) or the European Commission's standard contractual clauses, together w
       first time you open it, before any ad is requested or usage analytics are collected. You can say no and keep
       playing; without your consent the app does not request ads, and the optional "watch an ad for coins" button is
       not available. You can change your choice at any time under Account &rarr; Privacy choices.</li>
+  <li><strong>Session recordings (EU and UK).</strong> The same consent form decides session recordings: without your
+      consent nothing is recorded, and if you withdraw it under Account &rarr; Privacy choices, recording stops. The
+      Session recordings switch can turn recording off, but never on without your consent.</li>
+  <li><strong>Session recordings (everywhere).</strong> Outside the EU and UK, masked session recordings of the app's
+      screens outside a match start when you open the app. You can turn them off at any time under Account &rarr; Session recordings;
+      recording stops at once and stays off on that device, including the next time you open the app. Nothing is
+      recorded during a match, or on Android 9 and older.</li>
   <li><strong>Elsewhere.</strong> Personalized ads stay off unless you turn them on with the "Personalized ads"
       switch on the Account screen.</li>
   <li><strong>Notifications</strong> are only sent if you allow them, and you can turn each category off.</li>
@@ -359,7 +390,7 @@ extension) or the European Commission's standard contractual clauses, together w
       reports.</li>
   <li><strong>Legitimate interests:</strong> keeping the game secure and fair (fraud, cheating and abuse
       prevention), fixing crashes, and answering support reports. You can object to these (see below).</li>
-  <li><strong>Consent:</strong> showing ads, usage analytics, push notifications, and your optional profile details.
+  <li><strong>Consent:</strong> showing ads, usage analytics, session recordings and heatmaps, push notifications, and your optional profile details.
       You can withdraw consent at any time without affecting anything done before.</li>
   <li><strong>Legal obligations:</strong> keeping financial records of purchases.</li>
 </ul>
